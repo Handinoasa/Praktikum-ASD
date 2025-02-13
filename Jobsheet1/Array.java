@@ -4,7 +4,7 @@ public class Array {
         Scanner sc = new Scanner(System.in);
         
         double ip = 0;
-        double sum = 0;
+        double jumlah = 0;
         double bobot = 0;
 
         String[][] konvNilai = new String[9][4];
@@ -75,9 +75,9 @@ public class Array {
         System.out.println("==============================");
         for (int a = 1; a <= matkul.length; a++){
             bobot = Double.parseDouble(konvNilai[a][3]);
-            sum += bobot;;
+            jumlah += bobot;;
         }
-        ip = sum / 8;
+        ip = jumlah / 8;
         System.out.println("IP : " + ip);
         System.out.println("==============================");
     }
