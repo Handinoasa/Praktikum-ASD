@@ -29,8 +29,8 @@ public class Mahasiswa12 {
     }
     
     void updateIpk(double ipk) {
-        if (ipk >= 0.0 && ipk <= 4.0) {  // Perbaikan pengecekan rentang IPK
-            this.ipk = ipk;  // Mengubah nilai atribut ipk
+        if (ipk >= 0.0 && ipk <= 4.0) {  
+            this.ipk = ipk;  
             System.out.println("IPK diperbarui menjadi: " + this.ipk);
         } else {
             System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
