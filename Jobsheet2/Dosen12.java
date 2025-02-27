@@ -38,7 +38,7 @@ public class Dosen12 {
 
     
     public int hitungMasaKerja(int thnSkrg) {
-        return thnSkrg - tahunBergabung;
+        return thnSkrg  - tahunBergabung;
     }
 
   
